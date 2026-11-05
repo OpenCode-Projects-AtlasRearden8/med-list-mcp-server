@@ -1,7 +1,11 @@
+!output/README.txt
+*.pyc
+.DS_Store
+.env
+.env.*
+.pytest_cache/
 .venv/
 __pycache__/
-*.pyc
-.pytest_cache/
+dist/*.tmp
+node_modules/
 output/*
-!output/README.txt
-.DS_Store
